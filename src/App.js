@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import StateFun from './components/StateFun';
+import StateClas from './components/StateClas';
+import FormFun from './components/FormFun';
+import ArrayToList from './components/ArrayToList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <p>hello</p>
+    <StateFun name='nguyen nguyen'/>
+    <StateClas address='hn'/>
+    <FormFun></FormFun>
+    <ArrayToList></ArrayToList>
+    </>
   );
 }
 
